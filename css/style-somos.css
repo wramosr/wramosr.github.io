@@ -75,7 +75,7 @@ body{
 }
 #menu ul li a{
     display: block;
-    color: aqua;
+    color: white;
     text-decoration: none;
     transition: all 200ms;
 }
