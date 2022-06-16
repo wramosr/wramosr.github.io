@@ -9,6 +9,52 @@
 </head>
 
 <body>
+    <!--Ventana emergente-->
+    <div class="ventana" id="vent">
+        <div id="cerrar">
+            <a href="#" onclick="cerrar()">
+                <img src="img/cerrar.png" alt="Cerrar">
+            </a>
+        </div>
+        <p id="parrafo1">1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus commodo odio id
+            placerat. Sed quis
+            enim sagittis tellus vestibulum ullamcorper. Sed mollis et sem nec venenatis. Nunc tristique commodo diam,
+            at ultrices libero vestibulum ut. Fusce eu pharetra augue, egestas vestibulum justo. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Quisque sed mollis augue. Curabitur hendrerit erat nec posuere laoreet.
+            Ut quis purus non erat porttitor pulvinar pulvinar in odio. Vestibulum aliquam sem a nisi dignissim luctus.
+            Vestibulum volutpat viverra enim, vitae laoreet ante molestie et. Sed in odio ante. Etiam sollicitudin
+            pellentesque suscipit. Cras non accumsan erat.
+        </p>
+        <p id="parrafo2" class="1">2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus commodo odio id
+            placerat. Sed quis
+            enim sagittis tellus vestibulum ullamcorper. Sed mollis et sem nec venenatis. Nunc tristique commodo diam,
+            at ultrices libero vestibulum ut. Fusce eu pharetra augue, egestas vestibulum justo. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Quisque sed mollis augue. Curabitur hendrerit erat nec posuere laoreet.
+            Ut quis purus non erat porttitor pulvinar pulvinar in odio. Vestibulum aliquam sem a nisi dignissim luctus.
+            Vestibulum volutpat viverra enim, vitae laoreet ante molestie et. Sed in odio ante. Etiam sollicitudin
+            pellentesque suscipit. Cras non accumsan erat.
+        </p>
+        <p id="parrafo3">3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus commodo odio id
+            placerat. Sed quis
+            enim sagittis tellus vestibulum ullamcorper. Sed mollis et sem nec venenatis. Nunc tristique commodo diam,
+            at ultrices libero vestibulum ut. Fusce eu pharetra augue, egestas vestibulum justo. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Quisque sed mollis augue. Curabitur hendrerit erat nec posuere laoreet.
+            Ut quis purus non erat porttitor pulvinar pulvinar in odio. Vestibulum aliquam sem a nisi dignissim luctus.
+            Vestibulum volutpat viverra enim, vitae laoreet ante molestie et. Sed in odio ante. Etiam sollicitudin
+            pellentesque suscipit. Cras non accumsan erat.
+        </p>
+        <p id="parrafo4">4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus commodo odio id
+            placerat. Sed quis
+            enim sagittis tellus vestibulum ullamcorper. Sed mollis et sem nec venenatis. Nunc tristique commodo diam,
+            at ultrices libero vestibulum ut. Fusce eu pharetra augue, egestas vestibulum justo. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Quisque sed mollis augue. Curabitur hendrerit erat nec posuere laoreet.
+            Ut quis purus non erat porttitor pulvinar pulvinar in odio. Vestibulum aliquam sem a nisi dignissim luctus.
+            Vestibulum volutpat viverra enim, vitae laoreet ante molestie et. Sed in odio ante. Etiam sollicitudin
+            pellentesque suscipit. Cras non accumsan erat.
+        </p>
+
+    </div>
+    <!--Fin de ventana emergente-->
     <!--INICIO DE CABECERA-->
     <header id="header">
         <div class="wrap">
@@ -54,7 +100,7 @@
     <section class="medio">
         <section id="info">
             <div id="cards">
-                <div class="card">
+                <div class="card" id="card1" onclick="abrir(1)">
                     <img class="icon" src="img/nuestro proposito.jpg" alt="cargando imagen...">
                     <h2 class="category">Nuestro proposito</h2>
                     <p class="descripcion">
@@ -63,7 +109,7 @@
                 </div>
             </div>
             <div id="cards">
-                <div class="card">
+                <div class="card" onclick="abrir(2)">
                     <img class="icon" src="img/mision-vision.jpg" alt="cargando imagen...">
                     <h2 class="category">Vision y mision</h2>
                     <p class="descripcion">
@@ -73,7 +119,7 @@
                 </div>
             </div>
             <div id="cards">
-                <div class="card">
+                <div class="card" onclick="abrir(3)">
                     <img class="icon" src="img/Clima-Laboral.png" alt="cargando imagen...">
                     <h2 class="category">Clima laboral</h2>
                     <p class="descripcion">
@@ -84,7 +130,7 @@
                 </div>
             </div>
             <div id="cards">
-                <div class="card">
+                <div class="card" onclick="abrir(4)">
                     <img class="icon" src="img/Clima-Laboral.png" alt="cargando imagen...">
                     <h2 class="category">Mas informacion al</h2>
                     <p class="descripcion">
@@ -173,5 +219,7 @@
         </div>
     </footer>
     <!--FIN DE PIE DE PAGINA-->
+    <script src="js/hacer.js"></script>
 </body>
+
 </html>
